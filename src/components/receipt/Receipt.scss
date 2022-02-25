@@ -1,0 +1,22 @@
+
+.receipt-container {
+  width: 60%;
+  border: 1px solid #000;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+
+  .receipt-details {
+    margin-top: 40px;
+    text-align: left;
+
+    .receipt-details-list {
+      padding: 0;
+      list-style: none;
+    }
+  }
+  button {
+    margin-top: 40px;
+  }
+}

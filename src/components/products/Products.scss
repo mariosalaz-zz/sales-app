@@ -1,0 +1,12 @@
+.products-container {
+  .products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .product-item {
+      margin-bottom: 10px;
+      width: 30%;
+      list-style: none;
+    }
+  }
+}

@@ -1,46 +1,29 @@
-# Getting Started with Create React App
+# Sales-App
+A simple shopping basket app developed with React.js and Typescript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# How to use
+Select products from list, those products are going to be added to shopping basket (basket icon at the top right of the app), when you are done selecting click on the basket and a modal with the summary of products chosen will appear, you can cancel or buy the products, if you cancel, you will return to list view, if you buy the products you will see your receipt with the total amount.
 
-## Available Scripts
+# App design
+I based app architecture in three React patterns: 
+- Propagation: pass to child components only the props that the component are going to need. For this purpose I used destructuting and `...rest` operator
+- Composition: Created components that uses another components. e.g `Amount` component
 
-In the project directory, you can run:
+- Container components: In the code you will see some components in which there are two files: `container` and `presentation component` e.g: `ProductContainer` and `Product`. My purpose with that was to separe logic of presentation, so `container` component will handle logic and the another component will handle presentation. In some cases I didn't used it because logig was very small to separate it into differents components 
 
-### `npm start`
+### CSS
+- The preprocessor used is SCSS
+- Used Bootstrap v5
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### JS
+- React is the framework used to render the page
+- App was developed with typescript 
+- I used React hooks, only functional components
+- ES6 is used as complement to React
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## First Run
+- Make sure you have node and npm installed
+- Run the command `npm install` to get all dependencies
+- Run `npm run start` to run the project
+- Open your browser at `localhost:3000`
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

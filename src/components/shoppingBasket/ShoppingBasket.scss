@@ -1,0 +1,16 @@
+.shopping-basket-container {
+  .shopping-basket-title,
+  .shopping-basket-empty {
+    text-align: center;
+  }
+  .shopping-basket-menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    button {
+      &:last-child {
+        margin-left: 10px;
+      }
+    }
+  }
+}

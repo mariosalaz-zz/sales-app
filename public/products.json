@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "productId": 1,
+      "name": "Book",
+      "price": 12.49,
+      "taxesFree": true,
+      "imported": false,
+      "imageURL": "assets/images/books.jpeg"
+    },
+    {
+      "productId": 2,
+      "name": "Music CD",
+      "price": 14.99,
+      "taxesFree": false,
+      "imported": false,
+      "imageURL": "assets/images/musicCD.jpeg"
+    },
+    {
+      "productId": 3,
+      "name": "Chocolate bar",
+      "price": 0.85,
+      "taxesFree": true,
+      "imported": false,
+      "imageURL": "assets/images/chocolatesBar.jpeg"
+    },
+    {
+      "productId": 4,
+      "name": "Imported box of Chocolates",
+      "price": 10.00,
+      "taxesFree": true,
+      "imported": true,
+      "imageURL": "assets/images/importedChocolatesBox.jpeg"
+    },
+    {
+      "productId": 5,
+      "name": "Imported bottle of perfume",
+      "price": 47.50,
+      "taxesFree": false,
+      "imported": true,
+      "imageURL": "assets/images/importedPerfumeBottle.jpeg"
+    },
+    {
+      "productId": 6,
+      "name": "Bottle of perfume",
+      "price": 18.99,
+      "taxesFree": false,
+      "imported": false,
+      "imageURL": "assets/images/perfumeBottle.jpeg"
+    },
+    {
+      "productId": 7,
+      "name": "Packet of headache pills",
+      "price": 9.75,
+      "taxesFree": true,
+      "imported": false,
+      "imageURL": "assets/images/headachePills.jpeg"
+    }
+  ]
+}

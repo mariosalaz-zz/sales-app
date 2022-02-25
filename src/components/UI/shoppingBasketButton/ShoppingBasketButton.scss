@@ -1,0 +1,11 @@
+.shopping-basket-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  i {
+    font-size: 30px;
+  }
+  span {
+    font-size: 10px;
+  }
+}
